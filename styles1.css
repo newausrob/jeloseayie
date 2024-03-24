@@ -1,0 +1,261 @@
+body {
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100vh;
+    min-height: 100vh;
+    z-index:-100;
+  }
+@keyframes titleSlide {
+    from{bottom: 0%;}
+    to{bottom: 85%;}
+}
+
+
+@keyframes navBox {
+    from{bottom: -500%;}
+    to{bottom: 1%;}
+}
+
+.titlee {
+position: absolute;
+left: 0;
+right: 0;
+margin: 0 auto;
+
+
+animation: titleSlide;
+animation-duration: 3s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+
+.navbox {
+bottom: 0;
+position: absolute;
+align-items: center;
+justify-content:center;
+margin-left: 0px;
+font-size: 34px;
+border: 3px solid transparent rgb(40,40,40);
+background-color: rgb(40,40,40);
+width: 330px;
+height: 95vh;
+background-clip: padding-box;
+box-sizing: border-box;
+border-radius: 5%;
+opacity: 0.8;
+
+animation: navBox;
+animation-duration: 3s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+
+.hyperlinkr {
+    color: rgb(255, 255, 255);
+}
+
+.playlistj {
+position: absolute;
+right: 0;
+height: 95vh;
+width: 330px;
+
+animation: playSlide;
+animation-duration: 3s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+
+.playlistj {
+    position: absolute;
+    right: 0;
+    height: 95vh;
+    width: 330px;
+    
+    animation: playSlide;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+    
+    .spotify {
+        background-color: transparent; /* Set background color to transparent */
+        opacity: 0.8; /* Adjust the opacity for transparency (0 = fully transparent, 1 = fully opaque) */
+      }
+
+.heart { 
+    position: absolute;
+    right: 50vh;
+    left: 50vh;
+    align-items: center;
+    justify-content:center;
+    opacity: 0.9;
+
+    animation: heartSlide;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes heartSlide {
+    from{bottom: -100%;}
+    to{bottom: 20%;}
+}
+.august {
+    bottom: 0;
+    position: absolute;
+    align-items: center;
+    justify-content:center;
+    margin-left: 0px;
+    font-size: 34px;
+    border: 3px solid transparent rgb(40,40,40);
+    background-color: rgb(40,40,40);
+    width: 95%;
+    height: 80%;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    border-radius: 2%;
+    opacity: 0.8;
+
+    animation: augustSlide;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes augustSlide {
+    from{bottom: -100%;}
+    to{bottom: 5%;}
+}
+
+.september {
+    bottom: 0;
+    position: absolute;
+    align-items: center;
+    justify-content:center;
+    margin-left: 0px;
+    font-size: 34px;
+    border: 3px solid transparent rgb(40,40,40);
+    background-color: rgb(40,40,40);
+    width: 95%;
+    height: 80%;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    border-radius: 2%;
+    opacity: 0.8;
+
+    animation: septemberSlide;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes septemberSlide {
+    from{bottom: -200%;}
+    to{bottom: -80%;}
+}
+
+.october {
+    bottom: 0;
+    position: absolute;
+    align-items: center;
+    justify-content:center;
+    margin-left: 0px;
+    font-size: 34px;
+    border: 3px solid transparent rgb(40,40,40);
+    background-color: rgb(40,40,40);
+    width: 95%;
+    height: 80%;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    border-radius: 2%;
+    opacity: 0.8;
+
+    animation: octoberSlide;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes octoberSlide {
+    from{bottom: -300%;}
+    to{bottom: -165%;}
+}
+
+.vid1 {
+    bottom: 0;
+    position: absolute;
+    align-items: center;
+    justify-content:center;
+    margin-left: 0px;
+    font-size: 34px;
+    border: 3px solid transparent rgb(40,40,40);
+    background-color: rgb(40,40,40);
+    width: 25vw;
+    height: 100vh;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    border-radius: 2%;
+    opacity: 0.8;
+
+    animation: vid1Slide;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+.omsimvid1 {
+    width: 24vw;
+    height: 75vh;
+}
+
+@keyframes vid1Slide {
+    from{left: 1%;}
+    to{left: -500%;}
+}
+
+.vid2 {
+    bottom: 0;
+    position: absolute;
+    align-items: center;
+    justify-content:center;
+    margin-left: 0px;
+    font-size: 34px;
+    border: 3px solid transparent rgb(40,40,40);
+    background-color: rgb(40,40,40);
+    width: 25vw;
+    height: 100vh;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    border-radius: 2%;
+    opacity: 0.8;
+
+    animation: vid2Slide;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes vid2Slide {
+    from{left: -500%;}
+    to{left: 1%;}
+}
+
+.omsimvid2 {
+    width: 24vw;
+    height: 75vh;
+}
+
